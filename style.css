@@ -10,15 +10,29 @@
     font-size: 35px;
 }
 
-.guys{
+.guys {
     position: absolute;
     height: 100px;
     width: 70px;
-    z-index: 1;
+    visibility: hidden ;
 }
 
-#potato {
+.potato {
     position: absolute;
     height: 45px;
     width: 45px;
+    visibility: visible;
+}
+
+#tomato{
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    visibility: hidden;
+}
+
+#calijohn1{
+    left: 650px;
+    top: 660px;
+    visibility: visible;
 }
